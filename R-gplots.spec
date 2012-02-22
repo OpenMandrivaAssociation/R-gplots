@@ -9,10 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-gtools R-gdata R-stats R-caTools R-grid R-KernSmooth 
-Requires:         R-gtools 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-gtools R-gdata R-stats R-caTools R-grid R-KernSmooth
-BuildRequires:    R-gtools 
+Requires:         R-gtools R-gdata R-stats R-caTools R-grid R-KernSmooth
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-gtools R-gdata R-stats R-caTools R-grid R-KernSmooth
 
 %description
 Various R programming tools for plotting data
