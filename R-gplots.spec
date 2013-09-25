@@ -4,13 +4,13 @@
 %define debug_package %{nil}
 
 Name:             R-%{packname}
-Version:          2.11.0
-Release:          2
+Version:          2.11.3
+Release:          1
 Summary:          Various R programming tools for plotting data
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/gplots_2.11.0.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/gplots_2.11.3.tar.gz
 Requires:         R-gtools R-gdata R-stats R-caTools R-grid R-KernSmooth
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-gtools R-gdata R-stats R-caTools R-grid R-KernSmooth
